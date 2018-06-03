@@ -5,7 +5,9 @@ end
 
 def user_input(input1)
   if input1.between?(0, 8)
-    true
+    valid
+  else
+    invalid
 end
 
 # code your #valid_move? method here
