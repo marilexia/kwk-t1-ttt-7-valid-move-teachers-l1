@@ -1,7 +1,7 @@
 
-def input_to_index(input)
-  input.to_i - 1
-end
+# def input_to_index(input)
+#   input.to_i - 1
+# end
 
 def user_input(input1)
   if input1.between?(0, 8)
