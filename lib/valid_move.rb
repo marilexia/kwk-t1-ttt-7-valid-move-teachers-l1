@@ -1,3 +1,8 @@
+
+def input_to_index(input)
+  input.to_i - 1
+end
+
 # code your #valid_move? method here
 
 def valid_move?(board, index)
