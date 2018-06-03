@@ -1,23 +1,12 @@
 
-# def input_to_index(input)
-#   input.to_i - 1
-# end
-#
-# def user_input(input1)
-#   if input1.between?(0, 8)
-#     valid
-#   else
-#     invalid
-# end
-
 # code your #valid_move? method here
 
 def valid_move?(board, index)
-  user_input = input.to_i - 1
 
-  if position_taken?(board, user_input) && user_input.between?(0,8)
+  if index.between?(0,8) && position_taken?(board, index) == false
+    position_taken?(board, user_input) && user_input.between?(0,8)
     true
-    
+
   else
     false
   # if board[index] =
